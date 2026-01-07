@@ -1,0 +1,13 @@
+[package]
+name = "letgetrusty"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+cmp = "1.0.0"
+rand = "0.9.2"
+unicode-segmentation = "1.12.0"
+
+[[bin]]
+name = "letgetrusty"
+path = "main.rs"
